@@ -11,8 +11,9 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
+      <li><a href="{{ site.baseurl }}/list.html">Uppdateringar</a></li>
         <li><a href="{{ site.baseurl }}/accounts.html">Dina konton</a></li>
-        <li><a href="{{ site.baseurl }}/list.html">Uppdateringar</a></li>
+        <hr>
         {% if site.domain_active %}
         <li><a href="http://{{ site.project }}/github.io">Din hemsida</a></li>
         {% else %}
@@ -45,9 +46,10 @@
   <ul class="sidebar-nav">
     <li class="sidebar-brand"><a href="{{ site.baseurl }}/"><h1 class="brand">WIMSE</h1></a><h3>{{ site.project}}</h3></li>
     <hr />
-    <li><a href="{{ site.baseurl }}/accounts.html">Dina konton</a></li>
     <li><a href="{{ site.baseurl }}/list.html">Uppdateringar</a></li>
-    {% if site.project != null %}
+    <li><a href="{{ site.baseurl }}/accounts.html">Dina konton</a></li>
+    <hr>
+    {% if site.domain_active %}
     <li><a href="http://{{ site.project }}/github.io">Din hemsida</a></li>
     {% else %}
     <li style="color:#eee">Din hemsida</li>
