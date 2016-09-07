@@ -1,0 +1,43 @@
+name: Rebecka Ray
+author: Wimse
+baseurl:
+description:
+project: rebeckaray.se
+
+domain_site: rebeckaray.se
+domain_email: me@rebeckaray.se
+domain_password: rebeckaray
+domain_active: false
+
+gmail_account: rebeckaray.wimse@gmail.com
+gmail_password: rebeckawimse
+
+github_account:
+github_password:
+
+port: 2000
+envir: devel
+
+email: rnpatel[at]me.com
+location: 42°2'16"N   70°12'47"W
+disqus: diqus-username
+
+##Make sure to edit the above fields, especially for disqus.
+
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
