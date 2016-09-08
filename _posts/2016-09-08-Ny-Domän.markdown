@@ -1,6 +1,6 @@
 ---
 title: Ny Domän
-date: 2016-09-08T00:55:16.000Z
+date: 2016-09-07T00:55:16.000Z
 published: true
 categories: updates
 ---
