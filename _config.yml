@@ -15,9 +15,9 @@ github_password:
 port: 2000
 envir: devel
 
-email: rnpatel[at]me.com
-location: 42°2'16"N   70°12'47"W
-disqus: diqus-username
+email: info@wimse.se
+location:
+disqus:
 
 ##Make sure to edit the above fields, especially for disqus.
 
