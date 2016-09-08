@@ -9,7 +9,6 @@ body
   border-width:4px;
   -webkit-font-smoothing: antialiased;
   color:#666;
-  font-size:16px;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -177,20 +176,11 @@ hr {
 .brand
 {
   font-weight:800;
-  color:#ccc;
+  color:#f0f0f0;
   font-family:"Helvetica Neue", helvetica, "Open Sans",sans-serif;
   font-size:1.4em;
 }
 
-.brand:hover
-{
-  color:#fff;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s
-}
 .sidebar-brand h3{
   margin-top:-17px;
 }
