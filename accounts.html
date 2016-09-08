@@ -8,9 +8,10 @@ title: Accounts
 
     {% if site.domain_site %}
       <h3>Domän</h3>
-      <p>domän: {{ site.domain_site }} <br>
-        Email: {{ site.domain_email }} <br>
-        Lösenord: {{ site.domain_password }}</p>
+      <table>
+        <tr><td>domän: </td><td>{{ site.domain_site }}</td></tr>
+        <tr><td>Email: </td><td>{{ site.domain_email }}</td></tr>
+      </table>
     {% endif %}
 
     {% if site.github_account %}
