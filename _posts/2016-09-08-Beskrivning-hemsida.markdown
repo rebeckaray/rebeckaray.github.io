@@ -1,7 +1,7 @@
 ---
 published: true
 title: Beskrivning Hemsida
-date: 2016-09-08T00:00:00.000Z
+date: {}
 ---
 Hej Rebecka, 
 
@@ -11,4 +11,7 @@ Här kommer en kort genomgång av vad vi bestämde oss för i vårt möte senast
 
 ---
 ### Beskrivning rebeckaray.se
-En hemsida som består av en sektion med kontakt överst på sidan, Följt av en sektion med bilder och sedan en sektion med referenser.
+En portfolio webbplats med tre sektioner:
+* kontakta & titel
+* bilder
+* referenser
