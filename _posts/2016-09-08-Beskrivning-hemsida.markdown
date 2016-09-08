@@ -1,7 +1,7 @@
 ---
 published: true
 title: Beskrivning Hemsida
-date: {}
+date: 2016-09-08T00:00:00.000Z
 ---
 Hej Rebecka, 
 
@@ -14,4 +14,4 @@ Här kommer en kort genomgång av vad vi bestämde oss för i vårt möte senast
 En portfolio webbplats med tre sektioner:
 * kontakta & titel
 * bilder
-* referenser
+* referenser 
