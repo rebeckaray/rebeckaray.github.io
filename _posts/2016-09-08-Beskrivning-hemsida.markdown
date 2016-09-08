@@ -1,0 +1,14 @@
+---
+published: true
+title: beskrivning hemsida
+date: {}
+---
+Hej Rebecka, 
+
+Här kommer en kort genomgång av vad vi bestämde oss för i vårt möte senast. Se över och återkoppla om det stämmer överrens med vad vi sagt.
+
+**OBS: Vi kan inte börja med hemsidan försen vi får in en konfermation på att beskrivningen sämmer**
+
+---
+### Beskrivning rebeckaray.se
+En hemsida som består av en sektion med kontakt överst på sidan, Följt av en sektion med bilder och sedan en sektion med referenser.
