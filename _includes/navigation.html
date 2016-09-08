@@ -11,7 +11,11 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
+      {% if site.posts != empty %}
       <li><a href="{{ site.baseurl }}/list.html">Uppdateringar</a></li>
+      {% else %}
+      <li><a style="color:#eee">Uppdateringar</a></li>
+      {% endif %}
         <li><a href="{{ site.baseurl }}/accounts.html">Dina konton</a></li>
         <hr>
         {% if site.domain_active %}
@@ -46,30 +50,34 @@
   <ul class="sidebar-nav">
     <li class="sidebar-brand"><a href="{{ site.baseurl }}/"><h1 class="brand">WIMSE</h1></a><h3>{{ site.project}}</h3></li>
     <hr />
+    {% if site.posts != empty %}
     <li><a href="{{ site.baseurl }}/list.html">Uppdateringar</a></li>
-    <li><a href="{{ site.baseurl }}/accounts.html">Dina konton</a></li>
-    <hr>
-    {% if site.domain_active %}
-    <li><a href="http://{{ site.project }}/github.io">Din hemsida</a></li>
     {% else %}
-    <li style="color:#eee">Din hemsida</li>
+    <li><a style="color:#eee">Uppdateringar</a></li>
     {% endif %}
+      <li><a href="{{ site.baseurl }}/accounts.html">Dina konton</a></li>
+      <hr>
+      {% if site.domain_active %}
+      <li><a href="http://{{ site.project }}/github.io">Din hemsida</a></li>
+      {% else %}
+      <li style="color:#eee">Din hemsida</li>
+      {% endif %}
 
-    {% if site.envir != "devel" %}
-    <li><a href="prose.html">Skapa poster</a></li>
-    <hr>
-    <li><a href="{{ site.baseurl }}/markdown.html">Markdown</a></li>
-    {% else %}
-    <li style="color:#eee">Skapa poster</li>
-    <hr>
-    <li style="color:#eee">Markdown</li>
-    {% endif %}
-    <hr>
-    {% if site.disqus != "diqus-username" %}
-    <li><a href="{{ site.baseurl }}/disqus.html">Chatta</a></li>
-    {% else %}
-    <li style="color:#eee">Chatta</a></li>
-    {% endif %}
-    <li><a href="{{ site.baseurl }}/contact.html">WIMSE</a></li>
+      {% if site.envir != "devel" %}
+      <li><a href="prose.html">Skapa poster</a></li>
+      <hr>
+      <li><a href="{{ site.baseurl }}/markdown.html">Markdown</a></li>
+      {% else %}
+      <li style="color:#eee">Skapa poster</li>
+      <hr>
+      <li style="color:#eee">Markdown</li>
+      {% endif %}
+      <hr>
+      {% if site.disqus != "diqus-username" %}
+      <li><a href="{{ site.baseurl }}/disqus.html">Chatta</a></li>
+      {% else %}
+      <li style="color:#eee">Chatta</a></li>
+      {% endif %}
+      <li><a href="{{ site.baseurl }}/contact.html">WIMSE</a></li>
   </ul>
 </div>
