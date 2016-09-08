@@ -5,7 +5,7 @@ body
 {
   background-color:#f0f0f0;
   width:100%;
-  border-top:solid #d90006;
+  border-top:solid #68c;
   border-width:4px;
   -webkit-font-smoothing: antialiased;
   color:#666;
@@ -46,6 +46,9 @@ p
 }
 table{
   line-height: 120%;
+}
+hr {
+  border-top: 1px solid #444 !important;
 }
 .posts
 {
@@ -96,15 +99,16 @@ table{
   margin-left:-250px;
   left:250px;
   width:250px;
-  background:#f8f8f8;
+  background:#333;
   position:fixed;
   height:100%;
   overflow-y:auto;
   z-index:1000;
   margin-top:-4px;
-  border-top:solid #d90006;
+  border-top:solid #68C;
   transition:all .4s ease 0;
-  border-width:4px
+  border-width:4px;
+  color: #ccc;
 }
 
 .sidebar-nav
@@ -123,8 +127,7 @@ table{
   text-indent:40px;
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   font-weight:200;
-  color:#9c9c9c;
-  text-shadow:1px 1px #fff
+  color:#333;
 }
 
 .sidebar-nav li a
@@ -136,10 +139,12 @@ table{
 
 .sidebar-nav li a:hover
 {
-  color:#000;
-  background:#fff;
   text-decoration:none;
-  transition:all .2s ease 0
+  -webkit-transition: height 1s ease;
+  -moz-transition: height 1s ease;
+  -ms-transition: height 1s ease;
+  -o-transition: height 1s ease;
+  transition: height 1s ease;
 }
 
 .sidebar-nav li a:active,.sidebar-nav li a:focus
@@ -154,9 +159,9 @@ table{
 
 .sidebar-nav > .sidebar-brand > h3
 {
-  font-size:15px;
+  font-size:20px;
   font-weight:100;
-  color:#5d5f67
+  color:#68C;
 }
 
 .nav-toggle {
@@ -169,15 +174,14 @@ table{
 .brand
 {
   font-weight:800;
-  color:#6c7077;
+  color:#ccc;
   font-family:"Helvetica Neue", helvetica, "Open Sans",sans-serif;
   font-size:1.4em;
-  text-shadow:1px 1px #fff
 }
 
 .brand:hover
 {
-  color:#d90006;
+  color:#fff;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -296,7 +300,7 @@ pre
 {
   font-size:3em;
   font-weight:700;
-  color:#d90006;
+  color:#68c;
   line-height:130%
 }
 
@@ -355,11 +359,12 @@ pre
 .showcase-button
 {
   border-radius:.5em;
-  background-color:transparent;
+  background-color:rgba(255,255,255,0.2);
   border:1px solid rgba(255,255,255,.4);
-  color:rgba(255,255,255,.8);
+  color:white;
   font-weight:200;
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
+  font-size: 18px;
 }
 
 .showcase-button:hover
