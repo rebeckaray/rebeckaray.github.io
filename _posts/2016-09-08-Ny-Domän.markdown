@@ -7,6 +7,7 @@ categories: updates
 Hej {{site.name}},
 
 Vi har registerat din domän, samt ordnat med ny epost till dig.
+
 Din nya domän är {{site.domain_site}} och din nya epost är {{site.domain_email}}.
 
 Din nya epost vidarebefordras till din epost address ({{site.customer_email}}), så du
