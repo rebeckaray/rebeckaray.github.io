@@ -12,6 +12,7 @@ Här kommer en kort genomgång av vad vi bestämde oss för i vårt möte senast
 ---
 ### Beskrivning rebeckaray.se
 En portfolio webbplats med tre sektioner:
+
 * kontakta & titel
 * bilder
 * referenser 
