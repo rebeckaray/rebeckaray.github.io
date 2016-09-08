@@ -191,7 +191,9 @@ hr {
   -webkit-transition:.5s;
   transition:.5s
 }
-
+.sidebar-brand h3{
+  margin-top:-17px;
+}
 .sidebar-nav > .sidebar-brand a
 {
   color:#999
