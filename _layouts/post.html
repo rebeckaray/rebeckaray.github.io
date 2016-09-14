@@ -1,18 +1,32 @@
----
-layout: default
----
-<div id="article">
-  <div class="article-title">{{ page.title }}</div>
-  <p class="meta">
-    <small>
-      &nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}}
-    </small>
-  </p> <hr/>
-  <div class="post">
-    {{ content }}
-  </div>
+{% include header.html %}
+<body>
+<div id="main-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="12u">
+
+			<!-- Blog -->
+				<section>
+					<header class="major">
+						{% if site.posts != empty %}
+
+
+						<h2>{{ page.title }}</h2>
+						<p>Posted {{ page.date | date_to_string }}</p>
+					</header>
+					<div class="row">
+						<div class="8u -2u">
+							<section class="box">
+								<a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.featured }}" alt="" /></a>
+								{{ page.content }}
+							</section>
+						</div>
+					</div>
+					{% endif %}
+				</section>
+
+			</div>
+		</div>
+	</div>
 </div>
-{% include share.html %}
-{% include pager.html %}
-<!--
-{% include comment.html %}-->
+{% include footer_post.html %}

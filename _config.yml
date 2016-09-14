@@ -1,41 +1,5 @@
-name: Rebecka
-author: Wimse
-baseurl:
+name: Rebecka Ray
 description:
-project: rebeckaray.se
-customer_email: rebecka.ray@hotmail.com
+paginate: 10
 
-domain_site: rebeckaray.se
-domain_email: me@rebeckaray.se
-domain_password: rebeckaray
-domain_active: false
-
-github_account:
-github_password:
-
-port: 2000
-envir: devel
-
-email: info@wimse.se
-location:
-disqus: rebeckaray
-
-##Make sure to edit the above fields, especially for disqus.
-
-
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+gems: [jekyll-paginate]

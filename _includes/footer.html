@@ -1,8 +1,38 @@
-<div class="container">
-  <footer>
-    <p class="text-muted credit">
-      &copy; {{ site.time | date: '%Y' }}  &middot;
-      <a href="http://wimse.se">WIMSE</a>
-    </p>
-  </footer>
-</div>
+		<!-- Footer -->
+			<div id="footer-wrapper">
+				<section id="footer" class="container">
+					<div class="row">
+						<div class="12u">
+								<ul class="dates">
+								{% if site.posts != empty %}
+								{% for post in site.posts offset: 0 limit: 3 %}
+									<li>
+										<span class="date">{{ post.date | date: "%B"}} <strong>{{ post.date | date: "%d"}}</strong></span>
+										<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+										{{ post.excerpt }}
+									</li>
+								{% endfor %}
+								{% endif %}
+								</ul>
+							</section>
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+
+							<!-- Copyright -->
+								<div id="copyright">
+									<ul class="links">
+										<li>Rebecka Ray</li>
+										<li>hittapågatan 4 41122 Göteborg</li>
+										<li>+46 (0) 700 00 00</li>
+									</ul>
+								</div>
+
+						</div>
+					</div>
+				</section>
+			</div>
+
+	</body>
+</html>
